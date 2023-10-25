@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+
+.section__div p {
+    font-size: 18px;
+}
+
+.section__div h3 {
+    font-size: 16px;
+}
+
+
+main {
+    background-color: #ebebeb;
+}

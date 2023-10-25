@@ -1,0 +1,50 @@
+.header__padre {
+    background-color: #EAC926;
+}
+
+.header__padre  div ul li a {
+    text-decoration: none;
+    color: black;   
+}
+
+.header__padre div ul {
+    text-decoration: none;  
+    margin-top: 20px;
+} 
+
+
+.logo{
+width: 200px;
+}
+
+.section__div img {
+    width: 250px;
+}
+
+.texto-de-compra {
+    text-align: center;
+    margin: 10px;
+}
+
+/* .burger-menu {
+    color: #ffff;
+    border-style: solid;
+    width: 18px;
+    margin: 2px;
+} */
+
+.home_header_burger-menu{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    margin: 0 46%;
+    width: 30px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.login ul div   {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
