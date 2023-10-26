@@ -48,3 +48,14 @@ width: 200px;
     gap: 3px;
     align-items: center;
 }
+
+.icon-tarjeta {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.icon-tarjeta i {
+    display: flex;
+    align-items: center;
+}

@@ -4,6 +4,10 @@
     font-size: 15px;
 }
 
+.footer-section section {
+    margin: 15px;
+}
+
 .footer-section h4 {
     padding: 20px;
 }
@@ -13,9 +17,10 @@
 }
 
 .footer-section i {
-    color: #03264C;
+    color: #0f69ca;
+    height: 15px;
     /* margin: 10px; */
-    /* width: 50px; */
+    /* width: 50px; */  
     /* height: 50px; */
     /* display: block; */
 }
