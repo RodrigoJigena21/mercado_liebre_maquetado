@@ -1,9 +1,23 @@
+    :root {
+        --colorWeb:  #ebebeb;
+        --colorVerde: #39b54a;
+        --colorGrisOscuro:  #ebebeb;
+        --colorCeleste: #1259c3;
+        --colorAzul: #03264C;
+        --colorAmarillo: #EAC926;
+    }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'roboto';
 }
+
+body {
+    background-color: var(--colorWeb);
+}
+
 
 .section__div p {
     font-size: 18px;
@@ -15,6 +29,6 @@
 
 
 main {
-    background-color: #ebebeb;
-    width:90%;
+    background-color: var(--colorWeb);
+    /* width: 90%; */
 }

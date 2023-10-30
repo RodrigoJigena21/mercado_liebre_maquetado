@@ -1,3 +1,13 @@
+:root {
+    --colorWeb:  #ebebeb;
+    --colorVerde: #39b54a;
+    --colorGrisOscuro:  #ebebeb;
+    --colorCeleste: #1259c3;
+    --colorAzul: #03264C;
+    --colorAmarillo: #EAC926;
+}
+
+
 .footer-section {
     text-align: center;
     margin: 50px;
@@ -17,10 +27,54 @@
 }
 
 .footer-section i {
-    color: #0f69ca;
+    color: var(--colorAzul);
     height: 15px;
     /* margin: 10px; */
     /* width: 50px; */  
     /* height: 50px; */
     /* display: block; */
 }
+
+
+.main-padre section .box-item {
+    margin: 10px;
+    padding: 6px;
+}
+
+.main-padre section div {
+    margin-bottom: 10px;
+}
+
+.section__div i {
+    display: flex;
+    border-radius: 20px;
+    
+}
+
+.section__div {
+    background-color: white;
+}
+
+.img-i-p-h3 {
+    background-color: white;
+    gap: 10px;
+}
+
+.ofertas {
+    padding: 5px;
+    margin: 10px;
+    color:var(--colorGrisOscuro);
+}
+
+.fa-truck:before {
+    content: "\f0d1";
+    color: var(--colorVerde);
+    border-style: solid;
+    border-radius: 50px;
+}
+
+.main-padre section .box-item .off  {
+    color: var(--colorVerde);
+}
+
+
