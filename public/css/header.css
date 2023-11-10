@@ -12,11 +12,13 @@
         margin-top: 20px;
     } 
 
-    
-
-
     .logo{
     width: 200px;
+    }
+    
+
+    .contenedor-img-search-dos {
+        display: flex;
     }
 
 
@@ -42,6 +44,7 @@
         justify-content: center;
         margin: auto;
     }
+
 
     .icon-tarjeta i {
         display: flex;
