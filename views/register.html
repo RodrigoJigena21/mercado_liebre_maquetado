@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/dbc0dda609.js" crossorigin="anonymous"></script>
+</head> 
+<body>
+
+    <header class="header__padre"> 
+        <div class="contenedor-img-search">
+        <div class="contenedor-img-search-dos">
+        <div>
+            <a href="/"><img class="logo" src="/imagenes/logo-mercado-liebre.svg" alt="logo de mercadoliebre"></a> 
+        </div>
+        <div class="container-busqueda">
+            <div>
+                <input type="text" placeholder="Buscar productos, marcas" class="input">
+            </div>
+            <div>
+                <i class="fa fa-search"></i>
+            </div>
+        </div>
+        </div>
+        <div class="icon-tarjeta">
+            <p class="texto-de-compra">Compra en cuotas y sin tarjeta de credito</p>
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+        </div>
+        </div>
+    
+        <nav>
+            <div> 
+                <ul>
+                    <li><a href="">Ofertas</a></li>
+                    <li><a href="">Tiendas oficiales</a></li>
+                    <li><a href="">Vender</a></li>
+                    <li><a href="">Ayuda</a></li>
+                </ul>
+            </div>
+    
+            <div class="login">
+                <ul>
+                    <div>
+                        <li><a href="">Crea tu cuenta</a></li>
+                        <i class="fa-regular fa-address-card"></i>
+                    </div>
+                    <div>
+                        <li><a href="./login">Ingresa</a></li>
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                    </div>
+                    <div>
+                        <li><a href="">Mis compras</a></li>
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
+                    
+                </ul>
+        </div>
+        </nav>
+
+
+        <div class="home_header_burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+
+
+    <main class="register__main">
+        <section class="register__main__section">
+          <form action="" class="form">
+              <div class="form__box">
+                  <label class="form__label" for="name">Nombre</label>
+                  <input class="form__input" id="name" type="text" placeholder="Escribí tu Nombre" form="name">
+              </div>
+              <div class="form__box">
+                  <label class="form__label" for="surname">Apellido</label>
+                  <input class="form__input" id="surname" type="text" placeholder="Escribí tu Apellido" form="surname">
+              </div>
+              <div class="form__box">
+                  <label class="form__label" for="email">Escribí tu email</label>
+                  <input required class="form__input" id="email" type="email" placeholder="voyaserprogramdor@gmail.com" form="email">
+              </div>
+              <h3>Fecha de nacimiento</h3>
+              <div class="form__box">
+                <label class="form__label" for="date"></label>
+                <input class="form__input" id="date" type="date" placeholder="Escribí tu Apellido" form="date">
+            </div>
+            <div class="form__box">
+                <label class="form__label" for="Domicilio"></label>
+                <input class="form__input" id="Domicilio" type="text" placeholder="Domicilio" form="Domicilio">
+            </div>
+
+            <div class="perfil-usuario">
+            <h3 class="titulo-h3">Perfil de usuario</h3>
+            <div class="radios">
+            <label for="radio">Comprador</label>
+            <input name="radio" type="radio">
+
+            <label for="radio">Vendedor</label>
+            <input name="radio" type="radio">
+            </div>
+            </div>
+
+            <div class="checkbox">
+                <h3>Intereses</h3>
+            <div class="checkboxss">
+                <input type="checkbox" name="" id="">
+                <label for="">Electro</label>
+            </div>
+            <div class="checkboxss">
+                <input type="checkbox" name="" id="">
+                <label for="">Moda</label>
+            </div>
+            <div class="checkboxss">
+                <input type="checkbox" name="" id="">
+                <label for="">Hogar</label>
+            </div>  
+            <div class="checkboxss">
+                <input type="checkbox" name="" id="">
+                <label for="">Jugueteria</label>
+            </div> 
+            <div class="checkboxss">
+                <input type="checkbox" name="" id="">
+                <label for="">Vida sana</label>
+            </div> 
+            </div>
+        
+             
+
+            <div class="form__box">
+                <label class="form__label" for="password">Escribí tu contraseña<a href=""></a></label>
+                <input class="form__input" id="password" type="password" placeholder="Escribí tu contrasenia" form="password2">
+            </div>
+            <div class="form__box">
+                <label class="form__label" for="password2">Confirma tu contraseña<a href=""></a></label>
+                <input class="form__input" id="password2" type="password" placeholder="Escribí tu contrasenia" form="password2">
+            </div>
+
+
+              <div class="box__end">
+                  <a href="/" class="button button__secundary">Cancelar</a>
+                  <button type="submit" class="button button__primary">Enviar</button>
+              </div>
+          </form>
+        </section>
+    </main>
+    
+</body>
+</html>

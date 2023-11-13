@@ -1,0 +1,91 @@
+.register__main__section {
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #c0c0c0;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.radios {
+    margin: 20px;
+}
+
+.perfil-usuario {
+    padding: 2px;
+    width: 100%;
+}
+
+.checkbox {
+    margin: 0 0 10px;
+    margin-bottom: 40px;
+}
+
+.checkboxss {
+    margin: 15px;
+}
+
+
+
+
+
+@media (min-width: 1024px) {
+    .register__main__section {
+        width: 90%;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 5px 5px 5px #c0c0c0;
+        border-radius: 5px;
+        width: 50%;
+    }
+    
+    .radios {
+        margin: 20px;
+    }
+    
+    .perfil-usuario {
+        padding: 2px;
+        width: 100%;
+    }
+    
+    .checkbox {
+        margin: 0 0 10px;
+        margin-bottom: 40px;
+    }
+    
+    .checkboxss {
+        margin: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .register__main__section {
+        width: 90%;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 5px 5px 5px #c0c0c0;
+        border-radius: 5px;
+        width: 70%;
+    }
+    
+    .radios {
+        margin: 20px;
+    }
+    
+    .perfil-usuario {
+        padding: 2px;
+        width: 100%;
+    }
+    
+    .checkbox {
+        margin: 0 0 10px;
+        margin-bottom: 40px;
+    }
+    
+    .checkboxss {
+        margin: 15px;
+    }
+}
