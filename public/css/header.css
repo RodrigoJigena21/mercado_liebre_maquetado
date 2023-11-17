@@ -1,5 +1,6 @@
     .header__padre {
         background-color: #EAC926;
+        height: 350px;
     }
 
     .header__padre  div ul li a {
@@ -19,6 +20,23 @@
 
     .contenedor-img-search-dos {
         display: flex;
+        justify-content: space-between;
+    }
+
+    .container-busqueda {
+        display: flex;
+        padding: 10px;
+        background-color: white;
+        margin: auto;
+        border-radius: 10px;   
+        border-style: none;
+        margin-left: 100px;
+    }
+
+    
+    .input {
+        width: 90px;
+      
     }
 
 
@@ -26,11 +44,15 @@
         text-align: center;
         color: white;
         background-color: blue;
-        margin: 0 46%;
+        margin: 20px 46%;
         width: 30px;
-        padding: 5px;
+        /* padding: 5px; */
         border-radius: 3px;
+        /* font-size: larger; */
+        font-size: 25px;
     }
+
+
 
     .login ul div   {
         display: flex;
@@ -42,10 +64,8 @@
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
-        margin: auto;
+        /* margin: auto; */
     }
-
-    
 
 
     .icon-tarjeta i {
@@ -53,14 +73,17 @@
         align-items: center;
     }
 
+    @media (min-width: 768px){
+
+      
+        
+    }
+
 
 
     @media (min-width: 391px){
         .home_header_burger-menu {
             display: none;
-            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    
         }
-    }
-
-    @media (min-width: 768px){
     }
